@@ -19,7 +19,7 @@ Test `json` file
 curl -s https://api.github.com/users/shubhamtatvamasi | docker run --rm -i shubhamtatvamasi/jq
 ```
 
-Test json filter
+Get `name` from the file
 ```bash
 curl -s https://api.github.com/users/shubhamtatvamasi | docker run --rm -i shubhamtatvamasi/jq -r '.name'
 ```
