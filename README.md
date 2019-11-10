@@ -8,3 +8,18 @@ Build the Docker image
 ```bash
 docker-compose build
 ```
+
+Pull the Docker image
+```bash
+docker pull shubhamtatvamasi/jq
+```
+
+Test `json` file 
+```bash
+curl -s https://api.github.com/users/shubhamtatvamasi | docker run --rm -i shubhamtatvamasi/jq
+```
+
+Test json filter
+```bash
+curl -s https://api.github.com/users/shubhamtatvamasi | docker run --rm -i shubhamtatvamasi/jq -r '.login'
+```
