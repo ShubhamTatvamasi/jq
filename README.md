@@ -21,5 +21,5 @@ curl -s https://api.github.com/users/shubhamtatvamasi | docker run --rm -i shubh
 
 Test json filter
 ```bash
-curl -s https://api.github.com/users/shubhamtatvamasi | docker run --rm -i shubhamtatvamasi/jq -r '.login'
+curl -s https://api.github.com/users/shubhamtatvamasi | docker run --rm -i shubhamtatvamasi/jq -r '.name'
 ```
