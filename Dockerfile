@@ -1,7 +1,5 @@
 FROM alpine
 
-RUN apk add --update \
-    jq \
-    && rm -rf /var/cache/apk/*
+RUN apk add --no-cache jq
 
-ENTRYPOINT ["/usr/bin/jq"]
+ENTRYPOINT ["jq"]
