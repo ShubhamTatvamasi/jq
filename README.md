@@ -16,7 +16,7 @@ docker pull shubhamtatvamasi/jq
 
 Test `json` file 
 ```bash
-curl -s https://api.github.com/users/shubhamtatvamasi | docker run --rm -i shubhamtatvamasi/jq
+curl -s https://api.github.com/users/shubhamtatvamasi | docker run --rm -i shubhamtatvamasi/jq -C
 ```
 
 Get `name` from the file
