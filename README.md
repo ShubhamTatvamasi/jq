@@ -8,6 +8,7 @@ Build the Docker image
 ```bash
 docker-compose build
 ```
+> only if you want to build the image locally
 
 Pull the Docker image
 ```bash
