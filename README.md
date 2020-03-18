@@ -8,7 +8,7 @@
 
 Build the Docker image
 ```bash
-docker-compose build
+docker build -t shubhamtatvamasi/jq .
 ```
 > use only if you want to build the image locally
 
