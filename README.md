@@ -1,6 +1,7 @@
 # jq
 
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/shubhamtatvamasi/jq)](https://hub.docker.com/r/shubhamtatvamasi/jq)
+[![Docker Image Version (latest semver)](https://img.shields.io/docker/v/shubhamtatvamasi/jq?sort=semver)](https://hub.docker.com/r/shubhamtatvamasi/jq)
 [![Docker Image Size (tag)](https://img.shields.io/docker/image-size/shubhamtatvamasi/jq/latest)](https://hub.docker.com/r/shubhamtatvamasi/jq)
 [![Docker Pulls](https://img.shields.io/docker/pulls/shubhamtatvamasi/jq)](https://hub.docker.com/r/shubhamtatvamasi/jq)
 [![MicroBadger Layers (tag)](https://img.shields.io/microbadger/layers/shubhamtatvamasi/jq/latest)](https://hub.docker.com/r/shubhamtatvamasi/jq)
